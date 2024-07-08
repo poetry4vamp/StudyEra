@@ -1,8 +1,7 @@
-# django-studentportal-project
+### Create a folder on your desktop, named it 'django'
 
-1. create a folder on your desktop, named it 'django'
-2. go to the folder and type cmd on the folder path
-3. type py -m venv venv
+### Go to the folder and type cmd on the folder path
+        type py -m venv venv
 4. type venv\scripts\activate
 5. type pip install django
 6. update django version if needed
