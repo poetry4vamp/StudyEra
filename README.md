@@ -1,20 +1,25 @@
 ### Create a folder on your desktop, named it 'django'
 
 ### Go to the folder and type cmd on the folder path
-        type py -m venv venv
-4. type venv\scripts\activate
-5. type pip install django
-6. update django version if needed
-7. type django-admin startproject studentstudyportal
-8. type cd studentstudyportal
-9. type django-admin startapp dashboard
-10. type code .
-11. install python extension in vscode
-12. type py manage.py createsuperuser (create your own admin credentials to access /admin)
-13. type pip install crispy-bootstrap4
-14. type pip install requests
-15. modify the INSTALLED_APPS of settings.py (see the 'settings.py' file in studentstudyportal folder)
-16. add these at the bottom part of settings.py 
+
+### Type in the terminal,
+        py -m venv venv
+        venv\scripts\activate
+        pip install django
+        
+### Update django version if needed, then type in the terminal
+        django-admin startproject studentstudyportal
+        cd studentstudyportal
+        django-admin startapp dashboard
+        
+### Open the project
+### Install python extension in vscode, then type in  the terminal
+        py manage.py createsuperuser (create your own admin credentials to access)
+        pip install crispy-bootstrap4
+        pip install requests
+        
+### Modify the INSTALLED_APPS of settings.py (see the 'settings.py' file in the folder)
+### Add these at the bottom part of settings.py 
 
         STATIC_URL = '/static/'
 
@@ -26,11 +31,12 @@
 
         CRISPY_TEMPLATE_PACK = "bootstrap4"
     
-15. modify imports and urlpatterns of urls.py (see the 'urls.py' file in studentstudyportal folder)
-16. type py manage.py makemigrations
-17. type py manage.py migrate
-18. if both makemigrations and migrate don't work, try to copy the files in migrations folder to your migrations folder
-19. type py manage.py runserver 
+### Modify imports and urlpatterns of urls.py (see the 'urls.py' file in the folder), and type in the terminal
+        py manage.py makemigrations
+        py manage.py migrate
+        
+### If both makemigrations and migrate don't work, try to copy the files in migrations folder to your migrations folder, then type
+        py manage.py runserver 
     
     
     
